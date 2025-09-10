@@ -47,7 +47,7 @@ type
   Allocates memory for a raw pointer and returns it.
   ptr: pointer to be freed
 }
-procedure Free(ptr: pointer);
+procedure free(ptr: pointer);
 
 {
   Allocates a block of memory of the given size.
