@@ -11,9 +11,10 @@ It provides basic list operations such as adding, removing, inserting, and freei
 - Basic memory management (`malloc`, `calloc`, `free`).
 - Core list operations:
   - Add to head (`addhead`) or tail (`addtail`)
-  - Remove a node (`remlink`, `freelinkN`)
+  - Remove a node (`remlink`)
   - Insert before/after a given node (`insertlink`, `insertlinkbefore`)
   - Count nodes (`countlist`)
+  - Free a single link (`freelinkN`)
   - Free the entire list (`freelist`)
 
 ## Usage
@@ -70,5 +71,3 @@ uses
 
 This code is dual-licensed under the **GNU GPL v2** or later and the **Blender License 1.0**.
 See the file header for details.
-
-```
